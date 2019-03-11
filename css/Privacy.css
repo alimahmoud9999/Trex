@@ -1,0 +1,24 @@
+.Privacy {
+  text-align: left;
+  direction: ltr;
+}
+.Privacy .logo {
+  width: 150px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+}
+.Privacy .head {
+  margin-top: 35px;
+  font-size: 46px;
+}
+.Privacy .first-box h1 {
+  font-size: 25px;
+}
+.Privacy .box {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=Privacy.css.map */

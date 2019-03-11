@@ -1,0 +1,24 @@
+.Privacy{
+  text-align: left;
+  direction: ltr;
+  .logo{
+      width: 150px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 50px;
+  }
+  .head{
+    margin-top: 35px;
+    font-size: 46px;
+  }
+  .first-box{
+    h1{
+      font-size: 25px;
+    }
+  }
+  .box{
+    margin-top: 20px;
+  }
+}

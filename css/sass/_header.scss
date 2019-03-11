@@ -1,0 +1,51 @@
+.header{
+
+  .content{
+      margin-top: 169px;
+      @media (max-width: 575.98px) {
+        margin-top: 25px;
+       }
+    h1{
+      color: $color1;
+      font-size: 84px;
+      @media (max-width: 991.98px) {
+        font-size: 40px;
+       }
+    }
+    p{
+      color: $min-color;
+      font-size: 24px;
+      @media (max-width: 991.98px) {
+        font-size: 18px;
+       }
+    }
+    .downolad{
+      margin-top: 30px;
+      h3{
+        color: $color2;
+        font-size: 24px;
+      padding-top: 22px;
+      @media (max-width: 991.98px) {
+        font-size: 16px;
+        padding-top: 10px;
+       }
+       @media (max-width: 575.98px) {
+          font-size: 30px;
+        }
+      }
+      img{
+        width: 100%;
+      }
+    }
+  }
+.img-header{
+  margin-top: 80px;
+  img{
+    @media (max-width: 575.98px) {
+       width: 100%;
+     }
+          @media (max-width: 991.98px) {    width: 100%; }
+  }
+
+}
+}

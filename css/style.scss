@@ -1,0 +1,54 @@
+/*
+  Template Name : Trex
+  Name Coder : Ali Mahmoud
+  Start Date : 22/1/2019
+*/
+
+@import 'sass/_vars';
+@import 'sass/_componenet';
+/*iMPORT FONT*/
+@font-face {
+  font-family: 'AraA';
+  src: url("../fonts/AraAsmaaBeltajie-Regular.otf") format('truetype');
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  outline: none;
+
+  &:hover {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+body {
+  direction: rtl;
+  font-family: 'AraA' !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: right;
+  background: url(../Img/money_pattern.png);
+  // background-size: c;
+}
+
+/*Start Navbar*/
+@import 'sass/_nave';
+/* Start Header */
+@import 'sass/_header';
+/*Start section 1 */
+@import 'sass/_sec1';
+/*Start section 2 */
+@import 'sass/_sec2';
+/*Start section 3 */
+@import 'sass/_sec3';
+/*Start Section 4 */
+@import 'sass/_sec4';
+/*Start Section Conact */
+@import 'sass/_contact';
+/*Start Footer */
+@import 'sass/_footer';

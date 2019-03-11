@@ -1,0 +1,26 @@
+.sec1{
+  padding-top: 120px;
+  h1{
+    color: $color1;
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  .box-sec1{
+    margin-bottom: 20px;
+    img{
+      margin-bottom: 40px;
+      @media (max-width: 575.98px) {
+         width: 100%;
+       }
+            @media (max-width: 991.98px) {    width: 100%; }
+    }
+    h2{
+      color: $color1;
+      font-size: 24px;
+    }
+    p{
+      color: $min-color;
+      font-size: 20px;
+    }
+  }
+}

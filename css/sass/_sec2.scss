@@ -1,0 +1,47 @@
+.sec2{
+  margin-top: 120px;
+  background: url(../Img/X_vector_left.png)center right no-repeat;
+  background-size: contain;
+  h1{
+    color: $color1;
+    margin-bottom: 62px;
+  }
+  .img-step{
+       width: 100%;
+    @media (max-width: 575.98px) {
+       width: 100%;
+     }
+     @media (max-width: 991.98px) {    width: 100%; }
+  }
+
+  .arrow1{
+
+    margin-top: 115px;
+    @media (max-width: 991.98px) {
+      width: 30%;
+      margin-top: 30px;
+     }
+
+  }
+  .arrow2{
+
+  margin-top: 115px;
+    @media (max-width: 991.98px) {
+      width: 30%;
+      margin-top: 30px;
+     }
+    transform: rotate(90deg);
+  }
+  .arrow3{
+    @media (max-width: 991.98px) {
+      width: 30%;
+     }
+    transform: rotate(180deg);
+  }
+  .arrow4{
+    @media (max-width: 991.98px) {
+      width: 30%;
+     }
+    transform: rotate(280deg);
+  }
+}
